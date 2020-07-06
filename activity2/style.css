@@ -1,0 +1,55 @@
+/* CSS File v.1
+	Drew Taylor CST 126 6-28-20 -->*/
+
+@charset "ISO-8859-1";
+* {
+	font-family: Helvetica, Arial;
+	font-weight: 100;
+	font-size: 48px;
+	font-style: italic;
+	color: #4682B4;
+	text-align: center;
+	outline: none;
+}
+
+input[type=text] {
+	font-size: 32px;
+	border-style: none;
+	border-bottom: 1px solid lightsteelblue;
+}
+
+input[type=Email] {
+	font-size: 32px;
+  	border-style: none;
+	border-bottom: 1px solid lightsteelblue;
+}
+
+input:-webkit-autofill {
+	font-size: 32px;
+    -webkit-box-shadow: 0 0 0 50px white inset;
+    -webkit-text-fill-color: steelblue;
+}
+
+.button {
+	font-style: normal;
+	background-color: #708090;
+  	border: none;
+  	color: white;
+  	border-radius: 10px;
+}
+
+.button:hover {
+	background-color: #4682B4;
+}
+
+.button:active {
+	background-color: #4682B4;
+}
+
+input::-webkit-input-placeholder {/* Chrome/Opera/Safari/Edge */
+	font-family: Helvetica, Arial;
+	font-weight: 100;
+	font-size: 24px;
+	color: 	#B0C4DE;
+	text-align: center;
+}
